@@ -34,30 +34,29 @@
 
 ### Accessibility Goals
 
-- [ ] Semantic HTML structure
-- [ ] Proper heading hierarchy
-- [ ] Alt text for images
-- [ ] Keyboard navigation support
-- [ ] Color contrast compliance
-- [ ] Screen reader compatibility
+- [X] Semantic HTML structure
+- [X] Proper heading hierarchy
+- [X] Alt text for images
+- [X] Keyboard navigation support
+- [X] Color contrast compliance
+- [X] Screen reader compatibility
 
 ### Responsive Design Strategy
 
-- [ ] Mobile-first approach
-- [ ] Flexible grid system
-- [ ] Scalable typography
-- [ ] Optimized images
-- [ ] Touch-friendly interactions
+- [X] Mobile-first approach
+- [X] Flexible grid system
+- [X] Scalable typography
+- [X] Optimized images
+- [X] Touch-friendly interactions
 
 ---
 
 ## Content Strategy
 
 ### Key Sections/Pages
-
-1.
-2.
-3.
+1. **Homepage / Portfolio Index** — grid de miniaturas grandes (hero-index por entrada). Cada tarjeta actúa como acceso directo al case study.
+2. **Project Detail (case study)** — página por proyecto con slider de imágenes, breve descripción, rol/servicio, año y tags.
+3. **About + Contact** — biografía corta, servicios, link para descargar CV y formulario de contacto simple.
 
 ### Content Sources
 
@@ -75,6 +74,11 @@
 
 ### Visual Style
 
+### Decisiones concretas (layout + contenido)
+
+- **Layout:** grid responsiva tipo "thumbnail portal". La galería en la home mostrará miniaturas grandes que respetan `--max-width` y `--container-padding` y que enlazan a case studies con slider. Esta decisión prioriza escaneabilidad y mantiene foco en imagen.
+- **Contenido por tarjeta/proyecto:** cada tarjeta incluirá título (H3), rol/servicio corto, año y 1–2 tags; en la página de proyecto añadir slider, descripción breve y créditos. Usa la escala tipográfica (`--font-size-*`) y espaciado (`--space-*`) de `assets/css/_variables.css`.
+
 <!-- Describe your aesthetic approach -->
 
 ### Color Palette
@@ -85,9 +89,18 @@
 
 <!-- What fonts/typeface approach will you use? -->
 
+- neue haas grotesk
+- instrument serif
+- geist
+- geist monos
+
 ### Inspiration/References
 
 <!-- List 2-3 websites or designs that inspire your approach -->
+
+- https://generalcondition.com/
+- https://rudocompany.com/
+- https://www.vicrojo.com/
 
 ---
 

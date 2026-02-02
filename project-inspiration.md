@@ -156,6 +156,18 @@ _Example: Potential clients looking for a designer who specializes in environmen
 
 ---
 
+## Análisis rápido — URLs analizadas
+
+- https://generalcondition.com/
+- https://rudocompany.com/
+- https://www.vicrojo.com/
+
+### Patrones transferibles (sin copiar)
+- **Hero-index visual por proyecto:** mostrar una imagen o escena prominente por entrada en la rejilla que funcione como «portal» al case study; mejora el escaneo visual sin saturar.
+- **Thumbnail → Case study:** mantener miniaturas consistentes en la galería que enlacen a páginas de proyecto con slider/galería y metadatos (rol, año, tags).
+- **Tokens y escala tipográfica:** aplicar una escala tipográfica fluida y espaciados consistentes (usa variables de tokens) para mantener coherencia y legibilidad en todos los dispositivos.
+
+
 ### Key Message
 
 **What do you want visitors to feel/understand?**

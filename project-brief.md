@@ -84,15 +84,23 @@
 ### Color Palette
 
 <!-- List your main colors -->
+<!-- #0016DD
+#00C9FF
+#2A2A2A
+#F9FAF8 -->
 
 ### Typography
 
 <!-- What fonts/typeface approach will you use? -->
 
-- neue haas grotesk
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+
+<!-- - neue haas grotesk
 - instrument serif
 - geist
-- geist monos
+- geist monos -->
 
 ### Inspiration/References
 

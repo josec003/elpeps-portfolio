@@ -6,15 +6,48 @@
    Uses Intersection Observer for performance.
    ============================================ */
 
+/* MENU SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+.menu-scroll {
+  position: fixed;
+  /* background-color: var(--color-bg); */
+  opacity: 0.75;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  top: 20px;
+  left: 20px;
+  z-index: var(--z-fixed);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  gap: var(--space-lg);
+}
+
+nav ul li a {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  transition: color 0.3s ease;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+}
+
 /* ===== HERO SECTION ===== */
-.hero {
+#hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--gradient-hero);
-/* background-image: url(https://ik.imagekit.io/eayks776ir/projects/sticky_death/portada-mockup-render-sticky-death.jpg?updatedAt=1770636092038);   */
-text-align: center;
+  /* background-image: url(https://ik.imagekit.io/eayks776ir/projects/sticky_death/portada-mockup-render-sticky-death.jpg?updatedAt=1770636092038);   */
+  text-align: center;
   padding: var(--space-2xl);
 }
 
@@ -86,7 +119,7 @@ text-align: center;
 }
 
 .story-content {
-  max-width: 800px;
+  max-width: 100vw;
   z-index: var(--z-base);
   position: relative;
 }
@@ -130,7 +163,7 @@ text-align: center;
 /* ===== STATISTICS DISPLAY ===== */
 .stat-display {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(33vw, 1fr));
   gap: var(--space-2xl);
   margin: var(--space-3xl) 0;
 }
@@ -217,6 +250,7 @@ text-align: center;
   border: 2px solid var(--color-bg-dark);
   /* padding: var(--space-2xl); */
   overflow: hidden;
+  /* max-width: 33vw; */
   border-radius: var(--radius-xl);
   opacity: 0;
   transform: translateX(-30px);
@@ -325,7 +359,7 @@ text-align: center;
 }
 
 /* ===== FINAL CTA SECTION ===== */
-.final-section {
+#final-section {
   min-height: 100vh;
   display: flex;
   align-items: center;

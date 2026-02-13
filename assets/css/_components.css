@@ -131,6 +131,7 @@ footer a:hover {
   background-color: var(--color-bg);
   border: 2px solid var(--color-bg-dark);
   border-radius: var(--radius-lg);
+  /* max-width: 33vw; */
   /* padding: var(--space-xl); */
   overflow: hidden;
   transition: all var(--transition-base);

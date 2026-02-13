@@ -14,10 +14,10 @@
 
   /* ===== COLOR SYSTEM ===== */
   /* Primary brand colors */
-  --color-primary: #1d4ed8;
-  --color-primary-hover: #1e40af;
-  --color-primary-light: #3b82f6;
-  --color-primary-dark: #1e3a8a;
+  --color-primary: #0016dd;
+  --color-primary-hover: #001bbc;
+  --color-primary-light: #486bff;
+  --color-primary-dark: #001382;
 
   /* Neutral colors for text and backgrounds */
   --color-text-primary: #2a2a2a;
@@ -26,19 +26,19 @@
 
   /* Background colors */
   --color-bg: #f9faf8;
-  --color-bg-light: #f8fafc;
+  --color-bg-light: #f9faf8;
   --color-bg-dark: #2a2a2a;
 
   /* Border colors */
-  --color-border-light: #e2e8f0;
-  --color-border-medium: #cbd5e1;
-  --color-border-dark: #94a3b8;
+  --color-border-light: #f9faf8;
+  --color-border-medium: #cccccc;
+  --color-border-dark: #999999;
 
   /* Semantic colors */
-  --color-success: #10b981;
+  /* --color-success: #10b981;
   --color-warning: #f59e0b;
   --color-error: #ef4444;
-  --color-info: #3b82f6;
+  --color-info: #3b82f6; */
 
   /* ===== TYPOGRAPHY SCALE ===== */
   /* Fluid typography using clamp() for responsive sizing */
@@ -63,10 +63,10 @@
   --font-weight-bold: 700;
 
   /* Font families */
-  --font-family-base: "Geist", sans-serif;
+  --font-family-base: "Geist Mono", monospace;
   /* --font-family-heading: var(--font-family-base); */
-  --font-family-heading: "Geist Mono", monospace;
-  --font-family-mono: "Geist Mono", monospace;
+  --font-family-heading: "Geist", sans-serif;
+  --font-family-mono: "Geist", sans-serif;
 
   /* ===== SPACING SCALE ===== */
   /* Consistent spacing using 8px base unit (4px = 0.25rem) */
@@ -80,25 +80,25 @@
   --space-4xl: 6rem;
 
   /* ===== SHADOWS ===== */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md:
-    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg:
-    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl:
-    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 2px 2px 0 0 var(--color-bg-dark);
+
+  --shadow-md: 4px 4px 0 0 var(--color-bg-dark);
+
+  --shadow-lg: 8px 8px 0 0 var(--color-bg-dark);
+
+  --shadow-xl: 12px 12px 0 0 var(--color-bg-dark);
 
   /* ===== BORDER RADIUS ===== */
-  --radius-sm: 0.25rem;
-  --radius-md: 0.5rem;
-  --radius-lg: 0.75rem;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.5rem;
   --radius-xl: 1rem;
   --radius-full: 9999px;
 
   /* ===== TRANSITIONS ===== */
-  --transition-fast: 150ms ease-in-out;
-  --transition-base: 250ms ease-in-out;
-  --transition-slow: 350ms ease-in-out;
+  --transition-fast: 75ms ease-in-out;
+  --transition-base: 125ms ease-in-out;
+  --transition-slow: 175ms ease-in-out;
 
   /* ===== Z-INDEX SCALE ===== */
   /* Define stacking order once; avoid magic numbers like z-index: 9999 */
@@ -112,15 +112,15 @@
   --z-tooltip: 70;
 
   /* ===== SCROLLYTELLING GRADIENTS ===== */
-  --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-chapter-1: linear-gradient(135deg, #2c3e50, #34495e);
-  --gradient-chapter-2: linear-gradient(135deg, #c0392b, #8e44ad);
-  --gradient-chapter-3: linear-gradient(135deg, #27ae60, #2ecc71);
+  --gradient-hero: linear-gradient(135deg, #0016dd 0%, #001bbc 100%);
+  --gradient-chapter-1: linear-gradient(135deg, #0016dd, #001bbc);
+  --gradient-chapter-2: linear-gradient(135deg, #f9faf8, #f9faf8);
+  --gradient-chapter-3: linear-gradient(135deg, #f9faf8, #f9faf8);
 
   /* ===== SCROLLYTELLING COLORS ===== */
-  --color-accent-blue: #3498db;
-  --color-accent-red: #e74c3c;
-  --color-accent-green: #2ecc71;
+  --color-accent-blue: #00c9ff;
+  --color-accent-red: #00c9ff;
+  --color-accent-green: #00c9ff;
   --color-overlay-dark: rgba(0, 0, 0, 0.4);
   --color-card-bg: rgba(255, 255, 255, 0.05);
   --color-card-border: rgba(255, 255, 255, 0.1);
@@ -150,7 +150,7 @@
 }
 
 /* Manual dark mode toggle (add .dark-mode class to <html> or <body>) */
-.dark-mode {
+/* .dark-mode {
   --color-text-primary: #f1f5f9;
   --color-text-secondary: #cbd5e1;
   --color-text-muted: #94a3b8;
@@ -162,4 +162,4 @@
   --color-border-light: #334155;
   --color-border-medium: #475569;
   --color-border-dark: #64748b;
-}
+} */

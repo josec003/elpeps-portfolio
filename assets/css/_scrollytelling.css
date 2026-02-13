@@ -13,7 +13,8 @@
   align-items: center;
   justify-content: center;
   background: var(--gradient-hero);
-  text-align: center;
+/* background-image: url(https://ik.imagekit.io/eayks776ir/projects/sticky_death/portada-mockup-render-sticky-death.jpg?updatedAt=1770636092038);   */
+text-align: center;
   padding: var(--space-2xl);
 }
 

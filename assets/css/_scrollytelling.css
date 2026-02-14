@@ -100,6 +100,79 @@ nav ul li a:hover {
     bounce 2s ease-in-out 1.6s infinite;
 }
 
+/* Hero para proyectos */
+#hero-altered-ego {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-hero);
+  background-image: url(https://ik.imagekit.io/eayks776ir/projects/altered_ego/hero-altered-ego.jpg?updatedAt=1771098956416);
+  background-size: cover;
+  text-align: center;
+  padding: var(--space-2xl);
+}
+
+#hero-gumz {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-hero);
+  background-image: url(https://ik.imagekit.io/eayks776ir/projects/gumz/hero-gumz.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: var(--space-2xl);
+}
+
+#hero-help {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-hero);
+  background-image: url(https://ik.imagekit.io/eayks776ir/projects/help/hero-help-carteleria-mockup.jpg?updatedAt=1771095363383);
+  background-size: cover;
+  text-align: center;
+  padding: var(--space-2xl);
+}
+
+#hero-mortal-man {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-hero);
+  background-image: url(https://ik.imagekit.io/eayks776ir/projects/mortal_man/hero-mortal-man-libro-mockup.jpg?updatedAt=1771095339110);
+  background-size: cover;
+  text-align: center;
+  padding: var(--space-2xl);
+}
+
+#hero-museo-julio-romero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-hero);
+  background-image: url(https://ik.imagekit.io/eayks776ir/projects/jrt_rebranding/hero-museo-julio-romero-carteleria-mockup.jpg?updatedAt=1771095317075);
+  background-size: cover;
+  text-align: center;
+  padding: var(--space-2xl);
+}
+
+#hero-sticky-death {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-hero);
+  background-image: url(https://ik.imagekit.io/eayks776ir/projects/sticky_death/hero-sticky-death-packaging-mockup.jpg?updatedAt=1771095385249);
+  background-size: cover;
+  text-align: center;
+  padding: var(--space-2xl);
+}
+
 /* ===== KEYFRAME ANIMATIONS ===== */
 @keyframes fadeInUp {
   to {

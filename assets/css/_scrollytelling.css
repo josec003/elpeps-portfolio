@@ -12,15 +12,19 @@ html {
 }
 .menu-scroll {
   position: fixed;
-  /* background-color: var(--color-bg); */
-  opacity: 0.75;
-  background: transparent;
+  background-color: var(--color-bg);
+  /* opacity: 0.75;
+  background: transparent; */
   backdrop-filter: blur(10px);
-  top: 20px;
-  left: 20px;
+  justify-content: center;
+  /* border: 2px solid var(--color-bg-dark); */
+  top: 0;
+  left: 0;
+  width: 100vw;
   z-index: var(--z-fixed);
   padding: var(--space-sm) var(--space-md);
-  border-radius: var(--radius-md);
+  /* border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg); */
 }
 
 .menu-list {
@@ -33,7 +37,7 @@ nav ul li a {
   color: var(--color-text-primary);
   text-decoration: none;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-xs);
   transition: color 0.3s ease;
   padding: var(--space-sm) var(--space-md);
   border-radius: var(--radius-md);
@@ -46,7 +50,8 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   background: var(--gradient-hero);
-  /* background-image: url(https://ik.imagekit.io/eayks776ir/projects/sticky_death/portada-mockup-render-sticky-death.jpg?updatedAt=1770636092038);   */
+  background-image: url(https://ik.imagekit.io/eayks776ir/projects/help/help-cover-mockup-poster-ilustracion.jpg);
+  background-size: cover;
   text-align: center;
   padding: var(--space-2xl);
 }

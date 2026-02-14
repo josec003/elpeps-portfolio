@@ -16,13 +16,17 @@ html {
   /* opacity: 0.75;
   background: transparent; */
   backdrop-filter: blur(10px);
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   /* border: 2px solid var(--color-bg-dark); */
   top: 0;
   left: 0;
   width: 100vw;
   z-index: var(--z-fixed);
-  padding: var(--space-sm) var(--space-md);
+  /* padding: var(--space-sm) var(--space-md); */
+  padding: 1rem 5vw;
+  margin-bottom: 2rem;
   /* border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg); */
 }
@@ -42,6 +46,17 @@ nav ul li a {
   padding: var(--space-sm) var(--space-md);
   border-radius: var(--radius-md);
 }
+
+nav ul li a:hover {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border-bottom: 0.5rem solid var(--color-primary);
+}
+
+/* .nav-logo {
+  max-width: 5vw;
+  padding: var(--space-sm) var(--space-md);
+} */
 
 /* ===== HERO SECTION ===== */
 #hero {

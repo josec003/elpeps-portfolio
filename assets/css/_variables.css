@@ -63,10 +63,10 @@
   --font-weight-bold: 700;
 
   /* Font families */
-  --font-family-base: "Geist Mono", monospace;
+  --font-family-base: "Geist", sans-serif;
   /* --font-family-heading: var(--font-family-base); */
-  --font-family-heading: "Geist", sans-serif;
-  --font-family-mono: "Geist", sans-serif;
+  --font-family-heading: "Instrument Serif", Serif;
+  --font-family-mono: "Instrument Serif", Serif;
 
   /* ===== SPACING SCALE ===== */
   /* Consistent spacing using 8px base unit (4px = 0.25rem) */

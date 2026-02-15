@@ -232,7 +232,7 @@ nav ul li a:hover {
 }
 
 .text-large {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-base);
   line-height: var(--line-height-relaxed);
 }
 

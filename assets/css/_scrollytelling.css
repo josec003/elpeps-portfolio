@@ -67,6 +67,8 @@ nav ul li a:hover {
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/help/help-cover-mockup-poster-ilustracion.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: var(--space-2xl);
 }
@@ -109,6 +111,8 @@ nav ul li a:hover {
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/altered_ego/hero-altered-ego.jpg?updatedAt=1771098956416);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: var(--space-2xl);
 }
@@ -121,6 +125,8 @@ nav ul li a:hover {
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/gumz/hero-gumz.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: var(--space-2xl);
 }
@@ -133,6 +139,8 @@ nav ul li a:hover {
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/help/hero-help-carteleria-mockup.jpg?updatedAt=1771095363383);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: var(--space-2xl);
 }
@@ -145,6 +153,8 @@ nav ul li a:hover {
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/mortal_man/hero-mortal-man-libro-mockup.jpg?updatedAt=1771095339110);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: var(--space-2xl);
 }
@@ -157,6 +167,8 @@ nav ul li a:hover {
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/jrt_rebranding/hero-museo-julio-romero-carteleria-mockup.jpg?updatedAt=1771095317075);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: var(--space-2xl);
 }
@@ -169,6 +181,8 @@ nav ul li a:hover {
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/sticky_death/hero-sticky-death-packaging-mockup.jpg?updatedAt=1771095385249);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: var(--space-2xl);
 }

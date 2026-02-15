@@ -15,7 +15,7 @@ html {
   background-color: var(--color-bg);
   /* opacity: 0.75;
   background: transparent; */
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,6 +39,7 @@ html {
 
 nav ul li a {
   color: var(--color-text-primary);
+  position: relative;
   text-decoration: none;
   font-family: var(--font-family-base);
   font-size: var(--font-size-xs);
@@ -47,10 +48,33 @@ nav ul li a {
   border-radius: var(--radius-md);
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
   padding: 1rem;
   border-radius: 0.5rem;
   border-bottom: 0.5rem solid var(--color-primary);
+} */
+
+/* Línea invisible */
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-primary);
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+/* Hover */
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Active */
+nav ul li a.active::after {
+  width: 100%;
 }
 
 /* .nav-logo {

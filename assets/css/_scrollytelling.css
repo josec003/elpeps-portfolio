@@ -11,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 .menu-scroll {
-  position: fixed;
+  position: sticky;
   background-color: var(--color-bg);
   /* opacity: 0.75;
   background: transparent; */
@@ -59,7 +59,7 @@ nav ul li a:hover {
 } */
 
 /* ===== HERO SECTION ===== */
-#hero {
+#main {
   min-height: 100vh;
   display: flex;
   align-items: center;

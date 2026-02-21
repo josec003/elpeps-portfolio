@@ -152,6 +152,27 @@ footer a:hover {
   color: var(--color-text-secondary);
 }
 
+/* GRID PROJECTS */
+.grid-trabajo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+  margin: var(--space-3xl) 0;
+  padding: var(--space-2xl);
+  /* consulta copilot */
+  /* límite de dos columnas sin usar media queries */
+  /* max-inline-size: calc(
+    2 * 33vw + 1rem + 2 * var(--space-2xl)
+  );  */
+  justify-content: center;
+}
+
+.grid-element {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
 /* ===== ADDITIONAL COMPONENTS ===== */
 .header-content {
   display: flex;

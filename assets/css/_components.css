@@ -155,7 +155,7 @@ footer a:hover {
 /* GRID PROJECTS */
 .grid-trabajo {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(50vw, 500px), 1fr));
   gap: 1rem;
   margin: var(--space-3xl) 0;
   padding: var(--space-2xl);

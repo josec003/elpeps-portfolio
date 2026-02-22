@@ -10,25 +10,18 @@
 html {
   scroll-behavior: smooth;
 }
+
 .menu-scroll {
-  position: fixed;
+  position: sticky;
   background-color: var(--color-bg);
-  /* opacity: 0.75;
-  background: transparent; */
-  /* backdrop-filter: blur(10px); */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 2px solid var(--color-bg-dark); */
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: var(--z-fixed);
-  /* padding: var(--space-sm) var(--space-md); */
   padding: 1rem 5vw;
-  margin-bottom: 2rem;
-  /* border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg); */
 }
 
 .menu-list {
@@ -141,10 +134,26 @@ nav ul li a.active::after {
   animation: fadeInUp 1s ease 0.3s forwards;
 }
 
+.hero-h1 {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-bg);
+  margin-bottom: var(--space-md);
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--space-lg);
+}
+
+.hero-text {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-lg);
+  color: var(--color-bg);
+}
+
 .scroll-indicator {
   color: white;
   font-size: var(--font-size-sm);
-  font-family: var(--font-family-);
+  font-family: var(--font-family-mono);
   opacity: 0;
   animation:
     fadeInUp 1s ease 0.6s forwards,

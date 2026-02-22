@@ -44,6 +44,7 @@
 .mt-lg {
   margin-top: var(--space-lg);
   font-size: var(--font-size-sm);
+  font-family: var(--font-family-base);
 }
 .mt-xl {
   margin-top: var(--space-xl);

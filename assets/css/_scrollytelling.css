@@ -144,6 +144,7 @@ nav ul li a.active::after {
 .scroll-indicator {
   color: white;
   font-size: var(--font-size-sm);
+  font-family: var(--font-family-);
   opacity: 0;
   animation:
     fadeInUp 1s ease 0.6s forwards,
@@ -411,10 +412,16 @@ nav ul li a.active::after {
 
 /* ===== INTERACTIVE CARDS ===== */
 .interactive-cards {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--space-2xl);
+  margin: var(--space-3xl) 0; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33vw, 1fr));
+  gap: 1rem;
   margin: var(--space-3xl) 0;
+  padding: var(--space-2xl);
+  justify-content: center;
 }
 
 .card {
@@ -562,6 +569,7 @@ nav ul li a.active::after {
   border-radius: var(--radius-full);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-semibold);
+  font-family: var(--font-family-mono);
   cursor: pointer;
   text-decoration: none;
   display: inline-block;

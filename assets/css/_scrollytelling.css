@@ -284,6 +284,23 @@ nav ul li a.active::after {
   line-height: var(--line-height-relaxed);
 }
 
+/* TEXTO PROYECTOS */
+.story-section-project {
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4xl) var(--space-2xl);
+  position: relative;
+  opacity: 1;
+}
+
+.text-project {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-tight);
+  color: var(--color-bg-dark);
+}
+
 /* ===== CHAPTER THEMES ===== */
 .chapter-1 {
   background: var(--color-bg);

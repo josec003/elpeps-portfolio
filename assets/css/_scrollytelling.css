@@ -164,7 +164,7 @@ nav ul li a.active::after {
 #hero-altered-ego {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/altered_ego/hero-altered-ego.jpg?updatedAt=1771098956416);
@@ -178,7 +178,7 @@ nav ul li a.active::after {
 #hero-gumz {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/gumz/hero-gumz.jpg);
@@ -192,7 +192,7 @@ nav ul li a.active::after {
 #hero-help {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/help/hero-help-carteleria-mockup.jpg?updatedAt=1771095363383);
@@ -206,7 +206,7 @@ nav ul li a.active::after {
 #hero-mortal-man {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/mortal_man/hero-mortal-man-libro-mockup.jpg?updatedAt=1771095339110);
@@ -220,7 +220,7 @@ nav ul li a.active::after {
 #hero-museo-julio-romero {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/jrt_rebranding/hero-museo-julio-romero-carteleria-mockup.jpg?updatedAt=1771095317075);
@@ -234,7 +234,7 @@ nav ul li a.active::after {
 #hero-sticky-death {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background: var(--gradient-hero);
   background-image: url(https://ik.imagekit.io/eayks776ir/projects/sticky_death/hero-sticky-death-packaging-mockup.jpg?updatedAt=1771095385249);
@@ -245,6 +245,35 @@ nav ul li a.active::after {
   padding: var(--space-2xl);
 }
 
+.hero-project-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: var(--space-lg); */
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.hero-image-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-image-container img {
+  max-width: 100px;
+}
+
+.h1-hero-project {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-bg);
+  margin-bottom: var(--space-md);
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--space-lg);
+}
 /* ===== KEYFRAME ANIMATIONS ===== */
 @keyframes fadeInUp {
   to {

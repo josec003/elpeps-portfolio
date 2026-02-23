@@ -327,11 +327,36 @@ nav ul li a.active::after {
 .story-section-project {
   background: var(--color-bg);
   display: flex;
+  width: 85%;
+  margin: 0 auto;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: var(--space-4xl) var(--space-2xl);
   position: relative;
   opacity: 1;
+}
+
+.text-project-container {
+  /* display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: var(--space-lg); */
+  width: 85%;
+  /* padding: auto; */
+  margin: 0 auto;
+  /* gap: var(--space-sm); */
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  white-space: nowrap;
 }
 
 .text-project {

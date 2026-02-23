@@ -181,8 +181,8 @@ footer a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(50vw, 500px), 1fr));
   gap: 1rem;
-  margin: var(--space-3xl) 0;
-  padding: var(--space-2xl);
+  /* margin: var(--space-sm) 0; */
+  padding: var(--space-lg) var(--space-2xl);
   /* consulta copilot */
   /* límite de dos columnas sin usar media queries */
   /* max-inline-size: calc(
@@ -201,8 +201,8 @@ footer a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1rem;
-  margin: var(--space-3xl) 0;
-  padding: var(--space-2xl);
+  /* margin: var(--space-sm) 0; */
+  padding: var(--space-lg) var(--space-2xl);
   justify-content: center;
   align-items: center;
 }
@@ -211,15 +211,15 @@ footer a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
-  margin: var(--space-3xl) 0;
-  padding: var(--space-2xl);
+  /* margin: var(--space-sm) 0; */
+  padding: var(--space-lg) var(--space-2xl);
   justify-content: center;
   align-items: center;
 }
 
 .img-wrapper {
-  margin: var(--space-3xl) 0;
-  padding: var(--space-2xl);
+  /* margin: var(--space-3xl) 0; */
+  padding: var(--space-lg) var(--space-2xl);
 }
 
 .img-wrapper img {

@@ -365,6 +365,26 @@ nav ul li a.active::after {
   color: var(--color-bg-dark);
 }
 
+.section-project-caption {
+  background: var(--color-bg);
+  display: flex;
+  /* width: 85%; */
+  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-sm) var(--space-2xl);
+  position: relative;
+  opacity: 1;
+}
+
+.text-project-caption {
+  font-size: var(--font-size-xs);
+  font-family: var(--font-family-base);
+  font-style: italic;
+  line-height: var(--line-height-tight);
+  color: var(--color-text-muted);
+}
+
 /* ===== CHAPTER THEMES ===== */
 .chapter-1 {
   background: var(--color-bg);

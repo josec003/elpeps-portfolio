@@ -709,3 +709,19 @@ nav ul li a.active::after {
     gap: var(--space-lg);
   }
 }
+
+/* 404 PAGINA ERROR */
+.error-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-bg);
+}
+
+.error-image {
+  max-width: 90vw;
+  max-height: 90vw;
+  height: auto;
+}

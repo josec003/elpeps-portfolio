@@ -41,12 +41,6 @@ nav ul li a {
   border-radius: var(--radius-md);
 }
 
-/* nav ul li a:hover {
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border-bottom: 0.5rem solid var(--color-primary);
-} */
-
 /* Línea invisible */
 nav ul li a::after {
   content: "";
@@ -69,11 +63,6 @@ nav ul li a:hover::after {
 nav ul li a.active::after {
   width: 100%;
 }
-
-/* .nav-logo {
-  max-width: 5vw;
-  padding: var(--space-sm) var(--space-md);
-} */
 
 /* ===== HERO SECTION ===== */
 #main {
@@ -161,8 +150,9 @@ nav ul li a.active::after {
 }
 
 /* Hero para proyectos */
+/* Hero para proyectos, uso el 100% para evitar el scroll horizontal y las imágenes de fondo deben estar siempre centradas y adaptadas a la vertical, para que sean responsive */
 #hero-altered-ego {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -176,7 +166,7 @@ nav ul li a.active::after {
 }
 
 #hero-gumz {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -190,7 +180,7 @@ nav ul li a.active::after {
 }
 
 #hero-help {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -204,7 +194,7 @@ nav ul li a.active::after {
 }
 
 #hero-mortal-man {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -218,7 +208,7 @@ nav ul li a.active::after {
 }
 
 #hero-museo-julio-romero {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -232,7 +222,7 @@ nav ul li a.active::after {
 }
 
 #hero-sticky-death {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -245,6 +235,7 @@ nav ul li a.active::after {
   padding: var(--space-2xl);
 }
 
+/* Me gusta alinear horizontalmente los vectores ddel software utilizado y el título del proyecto, responsive, en desktop tienen que estar en los extremos */
 .hero-project-container {
   display: flex;
   flex-wrap: wrap;

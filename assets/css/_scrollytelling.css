@@ -631,6 +631,10 @@ nav ul li a.active::after {
   align-items: center;
   justify-content: center;
   background: var(--color-bg);
+  background-image: url(https://ik.imagekit.io/eayks776ir/svg/contact-illustration-rrss.svg);
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: var(--space-2xl);
 }
@@ -644,8 +648,28 @@ nav ul li a.active::after {
 .final-content p {
   font-size: var(--font-size-sm);
   color: var(--color-bg-dark);
-  max-width: 400px;
+  max-width: 100%;
   margin: 0 auto var(--space-xl);
+}
+
+.final-content-contact {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-lg);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.final-content-rrss {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--space-sm);
+  padding: clamp(var(--space-3xl), 5vw, var(--space-5xl)) var(--space-sm);
+}
+
+.final-content-rrss img {
+  width: clamp(50px, 6vw, 75px);
 }
 
 .cta-button {

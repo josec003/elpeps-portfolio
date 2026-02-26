@@ -320,9 +320,9 @@ nav ul li a.active::after {
   align-items: center;
 }
 
-.about-content p {
+/* .about-content p {
   max-width: 600px;
-}
+} */
 
 .text-large {
   font-size: var(--font-size-sm);

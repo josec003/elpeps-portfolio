@@ -26,6 +26,8 @@ html {
 
 .menu-list {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   list-style: none;
   gap: var(--space-lg);
 }
@@ -665,7 +667,7 @@ nav ul li a.active::after {
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--space-sm);
-  padding: clamp(var(--space-3xl), 5vw, var(--space-5xl)) var(--space-sm);
+  padding: var(--space-sm);
 }
 
 .final-content-rrss img {

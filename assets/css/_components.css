@@ -101,6 +101,16 @@ footer a:hover {
   text-decoration: none;
 }
 
+/* FOOTER INDEX */
+.footer-index {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  font-family: var(--font-family-mono);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
 /* ===== BUTTON COMPONENTS ===== */
 .btn {
   display: inline-flex;

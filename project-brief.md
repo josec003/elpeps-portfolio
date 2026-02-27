@@ -1,8 +1,8 @@
 # Project Brief
 
-**Student:** [Your Name]  
-**Handle:** @[your-github-username]  
-**Course:** Web Design 2025 · Fall  
+**Student:** [José Cañas Pérez-Angulo]  
+**Handle:** @[josec003]  
+**Course:** Máster Ilustración (2026) · Winter  
 **Date:** [Fill in date - Week 2]
 
 ---
@@ -30,30 +30,31 @@
 - [ ] HTML5 (semantic markup)
 - [ ] CSS3 (responsive design)
 - [ ] JavaScript (if applicable)
-- [ ] Other: ****\_\_\_****
+- [ ] Other: \***\*\_\_\_\*\***
 
 ### Accessibility Goals
 
-- [X] Semantic HTML structure
-- [X] Proper heading hierarchy
-- [X] Alt text for images
-- [X] Keyboard navigation support
-- [X] Color contrast compliance
-- [X] Screen reader compatibility
+- [x] Semantic HTML structure
+- [x] Proper heading hierarchy
+- [x] Alt text for images
+- [x] Keyboard navigation support
+- [x] Color contrast compliance
+- [x] Screen reader compatibility
 
 ### Responsive Design Strategy
 
-- [X] Mobile-first approach
-- [X] Flexible grid system
-- [X] Scalable typography
-- [X] Optimized images
-- [X] Touch-friendly interactions
+- [x] Mobile-first approach
+- [x] Flexible grid system
+- [x] Scalable typography
+- [x] Optimized images
+- [x] Touch-friendly interactions
 
 ---
 
 ## Content Strategy
 
 ### Key Sections/Pages
+
 1. **Homepage / Portfolio Index** — grid de miniaturas grandes (hero-index por entrada). Cada tarjeta actúa como acceso directo al case study.
 2. **Project Detail (case study)** — página por proyecto con slider de imágenes, breve descripción, rol/servicio, año y tags.
 3. **About + Contact** — biografía corta, servicios, link para descargar CV y formulario de contacto simple.
@@ -81,13 +82,16 @@
 
 <!-- Describe your aesthetic approach -->
 
+- Diseño minimalista, estilo suizo con reminiscencias al cartoon style occidental.
+
 ### Color Palette
 
 <!-- List your main colors -->
-<!-- #0016DD
-#00C9FF
-#2A2A2A
-#F9FAF8 -->
+
+- #0016DD
+- #00C9FF
+- #2A2A2A
+- #F9FAF8
 
 ### Typography
 

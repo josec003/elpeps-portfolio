@@ -1,29 +1,20 @@
 https://josec003.github.io/elpeps-portfolio/
 
-# WEB ATELIER (UDIT) – Student Project Template
+# Porfolio - José Cañas Pérez-Angulo (El Peps) - 2026
 
-_Critical Coding for a Better Living._
+This repository is my professional as a professional desginer and illustrator. It's based on scrollitelling to create a more immersive narrative. It allows access to specific projects for a better understanding.
 
-**Build a real, accessible, multilingual site—commit every week.**
-
-This repository is the **starting point for each student’s personal project** in the WEB ATELIER (UDIT) framework. While `web-foundations` provides the canonical lessons and `professor-course-template` manages the class instance, the **Student Project Template** is where each student designs and develops their own site. Every week, students commit progress here — _one student · one repo · one project · one commit per class_.
-
-## Purpose & Audience
-
-- **For Students:** A personal repository to build a web project step by step, following lessons. It deploys live via GitHub Pages.
-- **For Professors:** A window into each student’s weekly progress, commit history, and final project.
-
-## Core Technologies (Deep Explanation)
+## Main Technologies (Detailed Explanation)
 
 ### GitHub Pages
 
-- Students enable Pages on their repo to publish their project live at a URL like `https://username.github.io/project`.
-- Automatic deployment: every commit to `main` updates the live site.
+- We've used Pages to publish the project live at a URL like `https://usuario.github.io/proyecto`.
+- Deployment is automatic: each commit in `main` updates the site.
 
 ### Jekyll
 
-- Not required by students, but Pages uses Jekyll under the hood.
-- A `.nojekyll` file is provided to avoid conflicts unless Jekyll is explicitly needed.
+- We haven't used it directly, but Pages uses it in the background.
+- A `.nojekyll` file is included to avoid conflicts, unless explicitly required.
 
 ### GitHub Actions
 

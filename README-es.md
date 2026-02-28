@@ -1,28 +1,19 @@
 https://josec003.github.io/elpeps-portfolio/
 
-# WEB ATELIER (UDIT) – Plantilla de Proyecto Estudiantil
+# Porfolio - José Cañas Pérez-Angulo (El Peps) - 2026
 
-_Critical Coding for a Better Living._
-
-**Construye un sitio real, accesible y multilingüe—commit cada semana.**
-
-Este repositorio es el **punto de partida para el proyecto personal de cada estudiante** dentro del marco WEB ATELIER (UDIT). Mientras que `web-foundations` proporciona las lecciones canónicas y `professor-course-template` organiza la instancia del curso, la **Plantilla de Proyecto Estudiantil** es donde cada estudiante diseña y desarrolla su propio sitio web. Cada semana, los estudiantes realizan commits aquí — _un estudiante · un repo · un proyecto · un commit por clase_.
-
-## Propósito y Audiencia
-
-- **Para Estudiantes:** Un repositorio personal para construir un proyecto web paso a paso, siguiendo las lecciones. Se publica en vivo mediante GitHub Pages.
-- **Para Profesores:** Un espacio para observar el progreso semanal de cada estudiante, su historial de commits y el proyecto final.
+Este repositorio es mi porfolio profesional como diseñador e ilustrador, está basado en el scrollitelling para generar una mayor inmersividad narrativa. Permite el acceso a los proyectos en específico para entenderlos de mejor manera.
 
 ## Tecnologías Principales (Explicación Detallada)
 
 ### GitHub Pages
 
-- Los estudiantes habilitan Pages en su repositorio para publicar el proyecto en vivo en una URL como `https://usuario.github.io/proyecto`.
+- Hemos utilizado Pages en su repositorio para publicar el proyecto en vivo en una URL como `https://usuario.github.io/proyecto`.
 - El despliegue es automático: cada commit en `main` actualiza el sitio.
 
 ### Jekyll
 
-- No es necesario que los estudiantes lo usen directamente, pero Pages lo emplea en segundo plano.
+- No los hemos usado directamente, pero Pages lo emplea en segundo plano.
 - Se incluye un archivo `.nojekyll` para evitar conflictos, salvo que se requiera explícitamente.
 
 ### GitHub Actions

@@ -1,3 +1,5 @@
+https://josec003.github.io/elpeps-portfolio/
+
 # WEB ATELIER (UDIT) – Student Project Template
 
 _Critical Coding for a Better Living._
@@ -26,7 +28,6 @@ This repository is the **starting point for each student’s personal project** 
 ### GitHub Actions
 
 - Optional CI workflows included:
-
   - **Critical CI (Student):** checks links, page weight, and accessibility.
 
 - Encouraged: students learn how professional developers automate quality checks.

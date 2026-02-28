@@ -1,3 +1,5 @@
+https://josec003.github.io/elpeps-portfolio/
+
 # WEB ATELIER (UDIT) – Plantilla de Proyecto Estudiantil
 
 _Critical Coding for a Better Living._
@@ -26,7 +28,6 @@ Este repositorio es el **punto de partida para el proyecto personal de cada estu
 ### GitHub Actions
 
 - Se incluyen flujos CI opcionales:
-
   - **Critical CI (Estudiante):** verifica enlaces, peso de página y accesibilidad.
 
 - Se recomienda su uso: así los estudiantes aprenden cómo los profesionales automatizan controles de calidad.
